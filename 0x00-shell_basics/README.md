@@ -12,3 +12,4 @@ cd .. -> move back to the previous directory
 ls -la . ../ /boot -> print files in all the directories starting from current to parent then specified dir
 file /dir/filename -> prints file type
 ln -s /root/file __ls__ -> creates a symbolic link
+cp -un \*.html ../ -> copy all html files to the parent directory
