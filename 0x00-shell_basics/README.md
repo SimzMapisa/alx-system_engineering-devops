@@ -7,3 +7,4 @@ ls -aln -> list all files in long format showing only folder digits
 mkdir /root/directoryname -> create a directory in the given root folder
 mv -> file /root/destination
 rm -> /root/subdir/file
+rmdir path -> remove empty directory
