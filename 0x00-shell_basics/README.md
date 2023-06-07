@@ -13,3 +13,4 @@ ls -la . ../ /boot -> print files in all the directories starting from current t
 file /dir/filename -> prints file type
 ln -s /root/file __ls__ -> creates a symbolic link
 cp -un \*.html ../ -> copy all html files to the parent directory
+mv [[:upper:]]\* /tmp/u -> moves file with uppercase to the specified folder
