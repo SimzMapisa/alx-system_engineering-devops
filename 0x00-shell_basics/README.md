@@ -4,3 +4,4 @@ cd ~ -> changes directory to user's home directory
 ls -l -> Display directory contents in a long format
 ls -la -> List morefiles in the current directory including hidden files
 ls -aln -> list all files in long format showing only folder digits
+mkdir /root/directoryname -> create a directory in the given root folder
