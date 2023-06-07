@@ -17,3 +17,4 @@ mv [[:upper:]]\* /tmp/u -> moves file with uppercase to the specified folder
 rm . \*~ -> remove files that end with ~
 mkdir -p /dirs -> creates nested directories in the current directory
 ls -a -m -v -> lists folders and files seperated by commas and / slashes
+magic file
