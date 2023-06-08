@@ -8,4 +8,5 @@
 #### chmod 007 -> gives all users all rights
 #### chmod 753
 #### chmod --reference=ref_file file -> copies permissions from another filie
-#### chmod -R +x . -> adds execute permissions to subdirectories
+#### chmod -R ugo+x . -> adds execute permissions to subdirectories
+#### mkdir -m 751 dir -> a script that creates a directory called my_dir with permissions 751 in the working directory.
