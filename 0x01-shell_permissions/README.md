@@ -7,4 +7,5 @@
 #### chmod ugo+x -> adds execution rights to all users
 #### chmod 007 -> gives all users all rights
 #### chmod 753
-#### chmod --reference=ref_file file -> copies permissions from another file
+#### chmod --reference=ref_file file -> copies permissions from another filie
+#### chmod -R +x . -> adds execute permissions to subdirectories
