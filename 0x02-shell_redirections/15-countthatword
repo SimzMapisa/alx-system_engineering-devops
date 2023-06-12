@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -i | wc -l
+grep -i "bin" | wc -l
