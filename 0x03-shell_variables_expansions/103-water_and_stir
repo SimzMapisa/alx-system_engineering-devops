@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(((bestcol#$WATER)+(bestcol#$STIR)))
+echo $((echo$((bestcol#$WATER)+(bestcol#$STIR))))
