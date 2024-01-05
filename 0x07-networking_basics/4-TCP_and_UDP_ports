@@ -1,3 +1,1 @@
-#!/usr/bin/env bash
-#command that runs the netstat command to view network stats
 netstat
