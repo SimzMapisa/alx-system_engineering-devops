@@ -3,9 +3,9 @@
 if [ "$#" -lt 1 ]; then
 	echo "Usage: $0 5-is_the_host_on_the_network {IP_ADDRESS}"
 	exit 1
+else
+	ip_ad="$1"
+
+	#ping the ip address 5 times
+	ping -c 5 "$ip_ad"
 fi
-
-ip_ad="$1"
-
-#ping the ip address 5 times
-ping -c 5 "$ip_ad"
