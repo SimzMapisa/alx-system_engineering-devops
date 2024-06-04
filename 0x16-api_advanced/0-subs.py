@@ -3,6 +3,7 @@
 subscribers for a given subreddit"""
 import requests
 
+
 def number_of_subscribers(subreddit):
     """Return the total number of subscribers on a given subreddit."""
 
@@ -15,3 +16,4 @@ def number_of_subscribers(subreddit):
         return response.json().get('data').get("subscribers")
     else:
         return 0
+
