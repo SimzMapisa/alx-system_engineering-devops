@@ -6,7 +6,7 @@ import requests
 def top_ten(subreddit):
     '''returns the top ten reddit posts'''
 
-    headers = {'User-Agent': 'Tanatswa'}
+    headers = {'User-Agent': 'Simba'}
     url = 'https://www.reddit.com/r/{}/hot.json'.format(subreddit)
     response = requests.get(url, headers=headers, allow_redirects=False)
     if response.status_code == 200:
