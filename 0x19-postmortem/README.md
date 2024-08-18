@@ -1,4 +1,7 @@
 # Web Service Outage on Aug 10 2024 (Postmortem)
+
+![alt text]("https://www.shutterstock.com/image-vector/man-overwork-office-deadline-vector-600nw-1039453264.jpg"  "a title")
+
 ## Issue Summary
 
 #### Duration
